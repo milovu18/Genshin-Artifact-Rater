@@ -206,3 +206,65 @@ class fr(translation):
 	err_try_again = 'Merci de réessayer dans quelques minutes'
 	err_unknown_ocr = 'Erreur: OCR a échoué a cause d\'une erreur inconnue'
 	err_unknown = 'Erreur inconnue, essayer d\'utiliser une image d\'artefact venant de la page d\'inventaire'
+	
+	class translation:
+	# 3-digit language code
+	code = 'eng'
+	# Supported by OCR Engine 2
+	supported = True
+
+	# stats as they appear in-game
+	hp = 'HP'
+	heal = 'Tăng Trị Liệu'
+	df = 'Phòng Ngự'
+	er = 'Hiệu Quả Nạp Nguyên Tố'
+	em = 'Tinh Thông Nguyên Tố'
+	atk = 'Tấn Công'
+	cd = 'ST Bạo Kích'
+	cr = 'Tỷ Lệ Bạo Kích'
+	phys = 'Tăng Sát Thương Vật Lý'
+	elem = 'Tăng ST Nguyên Tố'
+	anemo = 'Tăng ST Nguyên Tố Phong'
+	elec = 'Tăng ST Nguyên Tố Lôi'
+	pyro = 'Tăng ST Nguyên Tố Hỏa'
+	hydro = 'Tăng ST Nguyên Tố Thủy'
+	cryo = 'Tăng ST Nguyên Tố Băng'
+	geo = 'Tăng ST Nguyên Tố Nham'
+	dend = 'Tăng ST Nguyên Tố Thảo'
+
+	# shortnames for setting stat weights / level
+	hp_opt = 'hp'
+	heal_opt = 'heal'
+	df_opt = 'def'
+	er_opt = 'er'
+	em_opt = 'em'
+	atk_opt = 'atk'
+	cr_opt = 'cr'
+	cd_opt = 'cd'
+	phys_opt = 'phys'
+	elem_opt = 'elem'
+	lvl_opt = 'lvl'
+
+	# text that appears below artifact stats (2-piece set)
+	piece_set = 'Hiệu Quả Bộ'
+
+	# lines will be ignored if they're an exact match
+	ignore = []
+
+	# text for bot messages
+	lvl = 'Level'
+	score = 'Gear Score'
+	main_score = 'Main Stat Rating'
+	sub_score = 'Substat Rating'
+	art_level = 'Artifact Level'
+	requested = 'Requested by %s'
+	join = 'For issues, join the [Artifact Rater Server]%s'
+	feedback = 'Feedback received, please join https://discord.gg/SyGmBxds3M if you\'d like to add more details'
+
+	# text for bot errors
+	err = 'Error'
+	err_not_found = 'Error: No image or url found, please make sure they were sent in the same message'
+	err_parse = 'Error: Command cannot be parsed, please double check the format and spelling'
+	err_try_again = 'please try again in a few minutes'
+	err_unknown_ocr = 'Error: OCR failed with unknown error'
+	err_unknown = 'Unknown error, try using an image from the inventory\'s artifact page'
